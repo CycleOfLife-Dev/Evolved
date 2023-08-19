@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{f26cf01d-50fb-4caa-bf10-e07efaa8405e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Discord">
+      <UniqueIdentifier>{45928115-9361-4c6f-88bc-fd48e38c11ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\XML">
+      <UniqueIdentifier>{6cf808ff-cb95-4f44-94f8-c9f1730976ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Evolved">
+      <UniqueIdentifier>{0b04f21b-2226-4dbf-8cf4-0c6dcc85a4e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Discord SDK\connection_win.cpp">
+      <Filter>SDK\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Discord SDK\discord_register_win.cpp">
+      <Filter>SDK\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Discord SDK\discord_rpc.cpp">
+      <Filter>SDK\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Discord SDK\rpc_connection.cpp">
+      <Filter>SDK\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Discord SDK\serialization.cpp">
+      <Filter>SDK\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\XML\tinystr.cpp">
+      <Filter>SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\XML\tinyxml.cpp">
+      <Filter>SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\XML\tinyxmlerror.cpp">
+      <Filter>SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\XML\tinyxmlparser.cpp">
+      <Filter>SDK\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Evolved.cpp">
+      <Filter>SDK\Evolved</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Evolved_draw.cpp">
+      <Filter>SDK\Evolved</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Evolved_impl_dx9.cpp">
+      <Filter>SDK\Evolved</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Evolved_impl_win32.cpp">
+      <Filter>SDK\Evolved</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\Evolved_widgets.cpp">
+      <Filter>SDK\Evolved</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unlinking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Funcations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Addresses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Discord SDK\backoff.h">
+      <Filter>SDK\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Discord SDK\connection.h">
+      <Filter>SDK\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Discord SDK\discord_register.h">
+      <Filter>SDK\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Discord SDK\discord_rpc.h">
+      <Filter>SDK\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Discord SDK\msg_queue.h">
+      <Filter>SDK\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Discord SDK\rpc_connection.h">
+      <Filter>SDK\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Discord SDK\serialization.h">
+      <Filter>SDK\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\XML\tinystr.h">
+      <Filter>SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\XML\tinyxml.h">
+      <Filter>SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\imstb_rectpack.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\imstb_textedit.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\imstb_truetype.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Evolved.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Evolved_impl_dx9.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Evolved_impl_win32.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\Evolved_internal.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crash Dumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>SDK\Evolved</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SurrenderVoice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
